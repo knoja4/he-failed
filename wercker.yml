@@ -23,15 +23,15 @@ build:
     - arjen/hugo-build@2.9.1:
         version: '0.55.6'
         theme: parsa-hugo
-        config: <string> # optional, default: ""
-        flags: <string> # optional, default: ""
-        basedir: <string> # optional, default: ""
-        dev_flags: <string> # optional, default: ""
-        dev_branches: <string> # optional, default: ""
-        prod_branches: <string> # optional, default: ""
-        force_install: <string> # optional, default: "false"
-        install_pygments: <string> # optional, default: "false"
-        clean_before: <string> # optional, default: "true"
+        # config: <string> # optional, default: ""
+        # flags: <string> # optional, default: ""
+        # basedir: <string> # optional, default: ""
+        # dev_flags: <string> # optional, default: ""
+        # dev_branches: <string> # optional, default: ""
+        # prod_branches: <string> # optional, default: ""
+        # force_install: <string> # optional, default: "false"
+        # install_pygments: <string> # optional, default: "false"
+        # clean_before: <string> # optional, default: "true"
 deploy:
   steps:
     - install-packages:
