@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
 summaryLength = "10"
-paginate = 7
+paginate = 6
 
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
