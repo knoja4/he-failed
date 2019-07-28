@@ -21,7 +21,7 @@ build:
   # https://devcenter.wercker.com/development/steps/
   steps:
     - arjen/hugo-build@2.9.1:
-        version: "0.55.6"
+        version: '0.55.6'
         theme: parsa-hugo
         # config: <string> # optional, default: ""
         # flags: <string> # optional, default: ""
@@ -30,7 +30,7 @@ build:
         # dev_branches: <string> # optional, default: ""
         # prod_branches: <string> # optional, default: ""
         force_install: true
-        install_pygments: true
+        install_pygments: false
         # clean_before: <string> # optional, default: "true"
 deploy:
   steps:

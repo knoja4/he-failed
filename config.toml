@@ -1,4 +1,4 @@
-baseURL = "http://hefailed.com/"
+baseURL = "https://hefailed.com/"
 languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
@@ -60,10 +60,6 @@ paginate = 8
 
 [params]
 # Link custom assets relative to /static
-# authorImage = "img/stable-genius.jpg"
-# header_title = "He Fails"
-# custom_css = []
-# custom_js  = []
 logo = "img/mbs-djt-bff-1400x200.jpg"
 home = "Home"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
