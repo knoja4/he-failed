@@ -20,7 +20,23 @@ build:
   # Read more about steps on our dev center:
   # https://devcenter.wercker.com/development/steps/
   steps:
-    - script:
-        name: echo
-        code: |
-          echo "hello world!"
+    - arjen/hugo-build@2.9.1:
+        version: '0.55.6'
+        theme: parsa-hugo
+        config: <string> # optional, default: ""
+        flags: <string> # optional, default: ""
+        basedir: <string> # optional, default: ""
+        dev_flags: <string> # optional, default: ""
+        dev_branches: <string> # optional, default: ""
+        prod_branches: <string> # optional, default: ""
+        force_install: <string> # optional, default: "false"
+        install_pygments: <string> # optional, default: "false"
+        clean_before: <string> # optional, default: "true"
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.4:
+        token: $GIT_TOKEN
+        domain: hefails.com
+        basedir: public
