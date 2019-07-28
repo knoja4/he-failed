@@ -1,4 +1,4 @@
-baseURL = "https://hefailed.com/"
+baseURL = "https://www.hefailed.com/"
 languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
