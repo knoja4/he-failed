@@ -1,0 +1,4 @@
+{
+  "emmet.triggerExpansionOnTab": true,
+  "markdown.extension.tableFormatter.normalizeIndentation": true
+}
