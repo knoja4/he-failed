@@ -29,8 +29,8 @@ build:
         # dev_flags: <string> # optional, default: ""
         # dev_branches: <string> # optional, default: ""
         # prod_branches: <string> # optional, default: ""
-        # force_install: <string> # optional, default: "false"
-        # install_pygments: <string> # optional, default: "false"
+        force_install: true
+        install_pygments: true
         # clean_before: <string> # optional, default: "true"
 deploy:
   steps:
