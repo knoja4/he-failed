@@ -1,10 +1,11 @@
-baseURL = "www.hefailed.com/"
+baseURL = "/he-failed"
 publishDir = "docs"
 languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 8
+ignoreFiles = "CNAME"
 
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
