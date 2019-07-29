@@ -1,4 +1,5 @@
-baseURL = "https://www.hefailed.com/"
+baseURL = "www.hefailed.com/"
+publishDir = "docs"
 languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
