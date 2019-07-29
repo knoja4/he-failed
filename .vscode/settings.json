@@ -1,7 +1,0 @@
-{
-  "emmet.triggerExpansionOnTab": true,
-  "markdown.extension.tableFormatter.normalizeIndentation": true,
-  "stencilTools.quotes": "double",
-  "autoimport.doubleQuotes": true,
-  "npm-intellisense.importQuotes": "\""
-}
