@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: 0.56.0
+        version: "0.56.0-DEV"
         theme: parsa-hugo
         flags: --buildDrafts=true
 deploy:
@@ -11,4 +11,5 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
+        domain: hefailed.com
         basedir: docs
