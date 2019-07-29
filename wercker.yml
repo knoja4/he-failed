@@ -1,6 +1,8 @@
 box: debian
 build:
   steps:
+    - install-packages:
+        packages: git ssh-client
     - arjen/hugo-build:
         version: "0.56.0"
         theme: parsa-hugo
