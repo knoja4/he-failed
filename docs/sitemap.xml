@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>www.hefailed.com/about/</loc>
-    <lastmod>2019-07-26T15:53:31-07:00</lastmod>
+    <loc>http://hefailed.com/about/</loc>
+    <lastmod>2019-07-28T14:01:52-07:00</lastmod>
   </url>
   
   <url>
-    <loc>www.hefailed.com/categories/</loc>
+    <loc>http://hefailed.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.hefailed.com/</loc>
+    <loc>http://hefailed.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.hefailed.com/tags/</loc>
+    <loc>http://hefailed.com/tags/</loc>
     <priority>0</priority>
   </url>
   
