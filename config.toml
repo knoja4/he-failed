@@ -62,7 +62,7 @@ enableGitInfo = true
 
 [params]
 # Link custom assets relative to /static
-logo = "img/mbs-djt-bff-1400x200.jpg"
+logo = "img/mbs-djt-bff.jpg"
 home = "Home"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
