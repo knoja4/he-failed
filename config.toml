@@ -3,7 +3,7 @@ publishDir = "docs"
 languageCode = "en-us"
 title = "He Failed"
 theme = "parsa-hugo"
-summaryLength = "10"
+summaryLength = "50"
 paginate = 8
 enableGitInfo = true
 
@@ -67,10 +67,10 @@ home = "Home"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
 # Meta data
-description = "MAKE ARYANS GO APESHIT"
+description = "MAKE AMERICA GRAVELY ANACHRONISTIC"
 # about author
 author = "Failure Inspector General"
-authorImage = "img/stable-genius.jpg"
+authorImage = "img/fig-50x50.png"
 shortDescription = "The US President doesn't want a United States. He prefers a cold civil war."
 # Contact Form Action
 contactFormAction = "#"
